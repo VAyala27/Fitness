@@ -1,0 +1,232 @@
+  <div id="top-footer" class="bg-blue">
+      <div class="container">
+        <div class="row justify-content-center align-items-start g-3">
+          <div class="col-lg-4 col-md-6 col-sm-12 text-white">
+            <h5>About</h5>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi,
+              totam!
+            </p>
+
+            <div class="footer-icons d-flex">
+              <li class="icon">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li class="icon">
+                <a href="#"><i class="fab fa-google-plus-g"></i></a>
+              </li>
+              <li class="icon">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li class="icon">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </li>
+            </div>
+            <!-- <p>
+              <i class="fa-solid fa-location-dot"></i
+              ><span class="ms-2">81 Kazi Haven, Awesome Villa</span>
+            </p>
+            <p>
+              <i class="fa-solid fa-phone"></i
+              ><span class="ms-2">555-555-5555</span>
+            </p>
+            <p>
+              <i class="fa-solid fa-envelope"></i
+              ><span class="ms-2">abc123@gmail.com</span>
+            </p> -->
+          </div>
+
+          <!-- <div class="col-lg-4 col-md-6 col-sm-12">
+            <h5 class="text-white">Links</h5> -->
+          <!-- Hover added -->
+          <!-- <ul class="list-group list-group-flush">
+              <li class="list-group-item bg-blue text-white">Home</li>
+              <li class="list-group-item bg-blue text-white">About</li>
+              <li class="list-group-item bg-blue text-white">Classes</li>
+              <li class="list-group-item bg-blue text-white">Schedule</li>
+              <li class="list-group-item bg-blue text-white">Gallery</li>
+              <li class="list-group-item bg-blue text-white">Blog</li>
+              <li class="list-group-item bg-blue text-white">FAQ</li>
+              <li class="list-group-item bg-blue text-white">Contact</li>
+            </ul>
+          </div> -->
+
+          <!-- <div class="col-lg-3 col-md-6 col-sm-12 text-white">
+            <h5>Working Hours</h5> -->
+          <!-- Hover added -->
+          <!-- <p class="text-center">Sunday-Monday:</p>
+            <p class="text-center">10.00am-5.00pm</p>
+            <p class="text-center">Saturday:</p>
+            <p class="text-center">9.00am-4.00pm</p>
+            <p class="text-center">Sunday Close</p>
+          </div> -->
+
+          <!-- <div class="col-lg-3 col-md-6 col-sm-12">
+            <h5 class="text-white">Gallery</h5>
+
+            <div class="row mb-3">
+              <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                <a href="#">
+                  <img
+                    class="img-fluid"
+                    src="https://radiustheme.com/demo/wordpress/themes/gymat/wp-content/uploads/2022/03/testimonial-3-300x297.jpg"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                <a href="#">
+                  <img
+                    class="img-fluid"
+                    src="https://radiustheme.com/demo/wordpress/themes/gymat/wp-content/uploads/2022/03/testimonial-3-300x297.jpg"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                <a href="#">
+                  <img
+                    class="img-fluid"
+                    src="https://radiustheme.com/demo/wordpress/themes/gymat/wp-content/uploads/2022/03/testimonial-3-300x297.jpg"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div> -->
+
+          <!-- <div class="row">
+              <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                <a href="#">
+                  <img
+                    class="img-fluid"
+                    src="https://radiustheme.com/demo/wordpress/themes/gymat/wp-content/uploads/2022/03/testimonial-3-300x297.jpg"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                <a href="#">
+                  <img
+                    class="img-fluid"
+                    src="https://radiustheme.com/demo/wordpress/themes/gymat/wp-content/uploads/2022/03/testimonial-3-300x297.jpg"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                <a href="#">
+                  <img
+                    class="img-fluid"
+                    src="https://radiustheme.com/demo/wordpress/themes/gymat/wp-content/uploads/2022/03/testimonial-3-300x297.jpg"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div> -->
+        </div>
+      </div>
+    </div>
+
+
+     <!-- <div class="accordion" id="accordionExample">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left" type="button"
+                                        data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                                        aria-controls="collapseOne">
+                                        What are the club opening hours?
+                                    </button>
+                                </h2>
+                            </div>
+
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    You have the flexibility of being able to workout any time, day or night. You can
+                                    usually start exercising from as early 6am to as late as 11pm weekdays*, 7am to 10pm
+                                    on weekends* and Public Holidays are generally 10am to 5pm*. It's best to check with
+                                    your club for exact opening times.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left" type="button"
+                                        data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true"
+                                        aria-controls="collapseTwo">
+                                        Do you accept walk-ins?
+                                    </button>
+                                </h2>
+                            </div>
+
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    We are currently by appointment only.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        What equipment do you have?
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    5 to 50 lb dumbbells, 300 lb barbell set, workout benches, sandbags, TRX bands,
+                                    resistance bands, exercise balls, an elliptical, and a stationary bike
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingFour">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
+                                        What is personal training?
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Personal training is an amazing way to get a great workout, have some
+                                    accountability, and learn how to work out in a safe and supportive setting, no
+                                    matter your level or experience. Whether in the studio or your home, Rock Fitness
+                                    personal training takes place in a private location away from spectators or
+                                    judgment.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingFive">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapseFive" aria-expanded="false"
+                                        aria-controls="collapseFive">
+                                        Who is training today?
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    The quickest way to find out which trainers are available today is by visiting our
+                                    schedules page.
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->

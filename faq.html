@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Oswald|Sintony&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="css/style.css" />
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+    <title>Powerhouse Fitness</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-blue">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Powerhouse Fitness</a>
+        <button
+          class="navbar-toggler d-lg-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavId"
+          aria-controls="collapsibleNavId"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+          <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html" aria-current="page"
+                >Home <span class="visually-hidden">(current)</span></a
+              >
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle active"
+                href="#"
+                id="dropdownId"
+                data-bs-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >About</a
+              >
+              <div class="dropdown-menu" aria-labelledby="dropdownId">
+                <a class="dropdown-item" href="about.html">About Us</a>
+                <a class="dropdown-item" href="faq.html">FAQ</a>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="classes.html">Classes</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="schedule.html">Schedule</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="dropdownId"
+                data-bs-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Media</a
+              >
+              <div class="dropdown-menu" aria-labelledby="dropdownId">
+                <a class="dropdown-item" href="blogs.html">Blog</a>
+                <a class="dropdown-item" href="media.html">Gallery</a>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+
+          <button
+            type="button"
+            class="btn btn-red"
+            data-bs-toggle="modal"
+            data-bs-target="#modalId"
+          >
+            Book A Class
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <div class="header bg-blue">
+      <div class="overlay">
+        <div class="row align-items-center justify-content-center h-100">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <h2 class="text-center heading">FAQ</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="faq">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-12 col-sm-12 mx-auto">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseOne"
+                  >
+                    What are your operating hours?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseOne"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    You have the flexibility of being able to workout any time,
+                    day or night. You can usually start exercising from as early
+                    6am to as late as 11pm weekdays*, 7am to 10pm on weekends*
+                    and Public Holidays are generally 10am to 5pm*. It's best to
+                    check with your club for exact opening times.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseTwo"
+                  >
+                    Do you offer a free trial?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseTwo"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Yes! We offer a 7-day free trial for new members.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    Can I freeze my membership?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Absolutely! You can freeze your membership for up to 3
+                    months.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFour"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseFour"
+                  >
+                    Is there parking available?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseFour"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Yes, we have ample parking space for our members.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFive"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseFive"
+                  >
+                    What equipment do you have?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseFive"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    5 to 50 lb dumbbells, 300 lb barbell set, workout benches,
+                    sandbags, TRX bands, resistance bands, exercise balls, an
+                    elliptical, and a stationary bike.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseSix"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseSix"
+                  >
+                    What is personal training?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseSix"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Personal training is an amazing way to get a great workout,
+                    have some accountability, and learn how to work out in a
+                    safe and supportive setting, no matter your level or
+                    experience. Whether in the studio or your home, Rock Fitness
+                    personal training takes place in a private location away
+                    from spectators or judgment.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseSeven"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseSeven"
+                  >
+                    Who is training today?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseSeven"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    The quickest way to find out which trainers are available
+                    today is by visiting our schedules page.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseEight"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseEight"
+                  >
+                  Are there locker rooms and showers available?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseEight"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Yes, we provide fully-equipped locker rooms with showers.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="gym-clients">
+      <div class="container">
+        <div class="row justify-content-center align-items-center g-2">
+          <div class="col-lg-2 col-md-2 col-sm-2 col-2">
+            <img
+            src="https://u.cubeupload.com/lit_flame/gymlogohover1.png"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-2 col-2">
+            <img
+            src="https://u.cubeupload.com/lit_flame/gymlogohover2.png"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-2 col-2">
+            <img
+            src="https://u.cubeupload.com/lit_flame/gymlogohover3.png"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-2 col-2">
+            <img
+            src="https://u.cubeupload.com/lit_flame/gymlogohover4.png"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-2 col-2">
+            <img
+              src="https://u.cubeupload.com/lit_flame/gymlogohover5.png"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-2 col-2">
+            <img
+            src="https://u.cubeupload.com/lit_flame/brand5.png"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="top-footer" class="bg-blue">
+      <div class="container">
+        <div class="row justify-content-center align-items-start g-3">
+          <div class="col-lg-4 col-md-6 col-sm-12 text-white">
+            <h5>About</h5>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi,
+              totam!
+            </p>
+
+            <div class="footer-icons d-flex">
+              <li class="icon">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li class="icon">
+                <a href="#"><i class="fab fa-google-plus-g"></i></a>
+              </li>
+              <li class="icon">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li class="icon">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </li>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 text-white">
+            <h5>Contact</h5>
+            <p>
+              <i class="fa-solid fa-location-dot"></i
+              ><span class="ms-2">81 Kazi Haven, Awesome Villa</span>
+            </p>
+            <p>
+              <i class="fa-solid fa-phone"></i
+              ><span class="ms-2">555-555-5555</span>
+            </p>
+            <p>
+              <i class="fa-solid fa-envelope"></i
+              ><span class="ms-2">abc123@gmail.com</span>
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 text-white">
+            <h5>Newsletter</h5>
+            <p>Signup for our weekly newsletter to get the latest news.</p>
+            <form>
+              <div class="input-group mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Email"
+                  aria-label="Email"
+                  aria-describedby="button-addon2"
+                />
+                <button
+                  class="btn btn-red"
+                  type="button"
+                  id="button-addon2"
+                >
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer id="main-footer" class="bg-blue">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <p class="text-center">
+              Copyright <span id="year"></span>All Rights Reserved by Powerhouse Fitness
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Modal Body -->
+    <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+    <div
+      class="modal fade"
+      id="modalId"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="modalTitleId"
+      aria-hidden="true"
+    >
+      <div
+        class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg"
+        role="document"
+      >
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-center" id="modalTitleId">
+              Book Class Now
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="mb-3">
+              <label for="" class="form-label">Full Name</label>
+              <input
+                type="text"
+                name=""
+                id=""
+                class="form-control"
+                placeholder="Name..."
+                aria-describedby="helpId"
+              />
+            </div>
+
+            <div class="mb-3">
+              <label for="" class="form-label">Email</label>
+              <input
+                type="email"
+                name=""
+                id=""
+                class="form-control"
+                placeholder="Email Address..."
+                aria-describedby="helpId"
+              />
+            </div>
+
+            <div class="mb-3">
+              <div class="mb-3">
+                <label for="" class="form-label">Select Class</label>
+                <select class="form-select form-select-lg" name="" id="">
+                  <option value="" selected></option>
+                  <option value="Boxing">Boxing</option>
+                  <option value="Fitness">Fitness</option>
+                  <option value="MMA">MMA</option>
+                  <option value="Muscle">Muscle Building</option>
+                  <option value="Yoga">Yoga</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" id="submit" class="btn btn-dark">Save</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+
+    <!-- Optional: Place to the bottom of scripts -->
+    <script>
+      const myModal = new bootstrap.Modal(
+        document.getElementById("modalId"),
+        options
+      );
+    </script>
+  </body>
+</html>

@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Oswald|Sintony&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Powerhouse Fitness</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-xl navbar-dark bg-blue">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Powerhouse Fitness</a>
+        <button
+          class="navbar-toggler d-lg-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavId"
+          aria-controls="collapsibleNavId"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+          <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html" aria-current="page"
+                >Home <span class="visually-hidden">(current)</span></a
+              >
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="dropdownId"
+                data-bs-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >About</a
+              >
+              <div class="dropdown-menu" aria-labelledby="dropdownId">
+                <a class="dropdown-item" href="about.html">About Us</a>
+                <a class="dropdown-item" href="faq.html">FAQ</a>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="classes.html">Classes</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="schedule.html">Schedule</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="dropdownId"
+                data-bs-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Media</a
+              >
+              <div class="dropdown-menu" aria-labelledby="dropdownId">
+                <a class="dropdown-item" href="blogs.html">Blog</a>
+                <a class="dropdown-item" href="media.html">Gallery</a>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+
+          <button
+            type="button"
+            class="btn btn-red"
+            data-bs-toggle="modal"
+            data-bs-target="#modalId"
+          >
+            Book A Class
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <div class="p-5 mb-4 bg-light" id="hero">
+      <div class="container-fluid py-5">
+        <h3 class="display-6 fw-bold text-white">Gym Services</h3>
+        <p class="col-md-8 fs-4 text-white">
+          The meaning of lofe is <span class="line-through">not</span> to
+          survive, but to move ahead, <br />
+          <span class="line-through">to go up</span>, to achieve, to conquer
+        </p>
+      </div>
+    </div>
+
+    <section class="features">
+      <div class="container">
+        <div class="box-container">
+          <div class="box box1">
+            <div class="box1-content box-content">
+              <h1>MMA</h1>
+              <div class="btn-red">MORE DETAIL</div>
+            </div>
+          </div>
+          <div class="box box2">
+            <div class="box2-content box-content">
+              <h1>Yoga Fitness</h1>
+              <div class="btn-red">MORE DETAIL</div>
+            </div>
+          </div>
+          <div class="box box3">
+            <div class="box3-content box-content">
+              <h1>Boxing</h1>
+              <div class="btn-red">MORE DETAIL</div>
+            </div>
+          </div>
+          <div class="box box4">
+            <div class="box4-content box-content">
+              <h1>Muscle Building</h1>
+              <div class="btn-red">MORE DETAIL</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about-us">
+      <div class="container">
+        <div class="row justify-content-center align-items-start g-5">
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <img
+              src="https://cdn.europosters.eu/image/1300/posters/gym-athletic-man-and-woman-i96980.jpg"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <h2 class="heading-2">About Us</h2>
+
+            <p>
+              At Powerhouse Fitness, we are committed to helping you achieve
+              your health and wellness goals. Our state-of-the-art facility,
+              expert trainers, and supportive community provide everything you
+              need to transform your body and mind. Whether you’re a beginner or
+              a seasoned athlete, we have the tools, programs, and motivation to
+              help you succeed.
+            </p>
+
+            <a href="#" class="btn btn-red">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <div id="pricing" class="my-5">
+      <div class="container">
+        <div
+          class="row justify-content-center align-items-center g-2 price-header"
+        >
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <h2>CHOOSE YOUR PRICING PLAN</h2>
+          </div>
+        </div>
+
+        <div class="row justify-content-center align-items-center g-5">
+          <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+            <div class="price-table">
+              <div class="price">
+                <h1>$45</h1>
+                <small>/mo</small>
+              </div>
+
+              <div class="shadow-container">
+                <div class="table-header">
+                  <div class="title">
+                    <h1>Basic Membership</h1>
+                    <p>Perfect for beginners and those returning to training</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="table-body">
+                <ul>
+                  <li>
+                    <i class="fas fa-check"></i>
+                    <span>Unlimited gym access.</span>
+                  </li>
+                  <li>
+                    <i class="fas fa-check"></i>
+                    <span>1 class per week</span>
+                  </li>
+                  <li>
+                    <i class="fas fa-check"></i>
+                    <span>Access to standard locker rooms</span>
+                  </li>
+                </ul>
+                <a href="#" class="btn btn-red">Join Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+            <div class="price-container">
+              <div class="price-table">
+                <div class="price">
+                  <h1>$50</h1>
+                  <small>/mo</small>
+                </div>
+
+                <div class="shadow-container">
+                  <div class="table-header">
+                    <div class="title">
+                      <h1>Premium Membership</h1>
+                      <p>Ideal for addvance trainers</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="table-body">
+                  <ul>
+                    <li>
+                      <i class="fas fa-check"></i>
+                      <span>Unlimited gym access.</span>
+                    </li>
+                    <li>
+                      <i class="fas fa-check"></i>
+                      <span>3 class per week</span>
+                    </li>
+                    <li>
+                      <i class="fas fa-check"></i>
+                      <span>Access to standard locker rooms</span>
+                    </li>
+                    <li>
+                      <i class="fas fa-check"></i>
+                      <span>1 personal training session per month</span>
+                    </li>
+                  </ul>
+                  <a href="#" class="btn btn-red">Join Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+            <div class="price-container">
+              <div class="price-table">
+                <div class="price">
+                  <h1>$90</h1>
+                  <small>/mo</small>
+                </div>
+
+                <div class="shadow-container">
+                  <div class="table-header">
+                    <div class="title">
+                      <h1>Platinum Membership</h1>
+                      <p>Perfect for committed trainers</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="table-body">
+                  <ul>
+                    <li>
+                      <i class="fas fa-check"></i>
+                      <span>Lorem ipsum dolor sit amet.</span>
+                    </li>
+                    <li>
+                      <i class="fas fa-check"></i>
+                      <span>Lorem ipsum dolor sit amet.</span>
+                    </li>
+                    <li>
+                      <i class="fas fa-check"></i>
+                      <span>Lorem ipsum dolor sit amet.</span>
+                    </li>
+                    <li>
+                      <i class="fas fa-check"></i>
+                      <span>Lorem ipsum dolor sit amet.</span>
+                    </li>
+                  </ul>
+                  <a href="#" class="btn btn-red">Join Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <section id="pricing">
+      <div class="container">
+        <div
+          class="row justify-content-center align-items-center g-2 price-header"
+        >
+          <div class="col-lg-12 col-md-12 col-sm-12 mb-4">
+            <h2 class="text-dark heading-2">CHOOSE YOUR PRICING PLAN</h2>
+          </div>
+        </div>
+
+        <div class="row justify-content-center align-items-center">
+          <div class="card-group">
+            <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+              <div class="card">
+                <div class="price-table">
+                  <div class="price">
+                    <h1>$45</h1>
+                    <small>/mo</small>
+                  </div>
+
+                  <div class="shadow-container">
+                    <div class="card-header">
+                      <div class="card-title">
+                        <h1>Basic Membership</h1>
+                        <p>
+                          Perfect for beginners and those returning to training
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card-body">
+                    <ul>
+                      <li>
+                        <i class="fas fa-check"></i>
+                        <span>Unlimited gym access.</span>
+                      </li>
+                      <li>
+                        <i class="fas fa-check"></i>
+                        <span>1 class per week</span>
+                      </li>
+                      <li>
+                        <i class="fas fa-check"></i>
+                        <span>Access to standard locker rooms</span>
+                      </li>
+                    </ul>
+                    <div class="py-3 text-center">
+                      <a href="#" class="btn btn-red">Join Now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+              <div class="card">
+                <div class="price-table">
+                  <div class="price">
+                    <h1>$50</h1>
+                    <small>/mo</small>
+                  </div>
+
+                  <div class="shadow-container">
+                    <div class="card-header">
+                      <div class="card-title">
+                        <h1>Premium Membership</h1>
+                        <p>Ideal for addvance trainers</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card-body">
+                    <ul>
+                      <li>
+                        <i class="fas fa-check"></i>
+                        <span>Unlimited gym access.</span>
+                      </li>
+                      <li>
+                        <i class="fas fa-check"></i>
+                        <span>3 class per week</span>
+                      </li>
+                      <li>
+                        <i class="fas fa-check"></i>
+                        <span>Access to standard locker rooms</span>
+                      </li>
+                      <li>
+                        <i class="fas fa-check"></i>
+                        <span>1 personal training session per month</span>
+                      </li>
+                    </ul>
+                    <div class="py-3 text-center">
+                      <a href="#" class="btn btn-red">Join Now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+              <div class="card">
+                <div class="price-table">
+                  <div class="price">
+                    <h1>$90</h1>
+                    <small>/mo</small>
+                  </div>
+
+                  <div class="shadow-container">
+                    <div class="card-header">
+                      <div class="card-title">
+                        <h1>Platinum Membership</h1>
+                        <p>Perfect for committed trainers</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card-body">
+                    <ul>
+                      <li>
+                        <i class="fas fa-check"></i>
+                        <span>Unlimited gym access.</span>
+                      </li>
+                      <li>
+                        <i class="fas fa-check"></i>
+                        <span>3 class per week</span>
+                      </li>
+                      <li>
+                        <i class="fas fa-check"></i>
+                        <span>Access to standard locker rooms</span>
+                      </li>
+                      <li>
+                        <i class="fas fa-check"></i>
+                        <span>3 personal training session per month</span>
+                      </li>
+                      <li>
+                        <i class="fas fa-check"></i>
+                        <span>Health Check</span>
+                      </li>
+                      <li>
+                        <i class="fas fa-check"></i>
+                        <span>10% OFF gym gear</span>
+                      </li>
+                    </ul>
+                    <div class="py-3 text-center">
+                      <a href="#" class="btn btn-red">Join Now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="bg-blue">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div
+            class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center align-items-center flex-column"
+          >
+            <h2 class="heading-2">Testimonials</h2>
+          </div>
+        </div>
+
+        <div
+          id="myCarousel"
+          class="carousel slide"
+          data-interval="1000"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#myCarousel"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#myCarousel"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#myCarousel"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="carousel-img">
+                <img
+                  src="https://u.cubeupload.com/lit_flame/pexelsphoto30836937e.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="carousel-caption">
+                <h5>Sarah M.</h5>
+                <p>
+                  "Powerhouse Fitness has changed my life! The trainers are so
+                  supportive, and I’ve never felt more confident."
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-img">
+                <img
+                  src="https://u.cubeupload.com/lit_flame/pexelsphoto8350413ez.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="carousel-caption">
+                <h5>James L.</h5>
+                <p>
+                  "The variety of classes keeps me motivated and excited to work
+                  out. Highly recommend!"
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-img">
+                <img
+                  src="https://u.cubeupload.com/lit_flame/pexelsphoto936090ezg.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="carousel-caption">
+                <h5>John D.</h5>
+                <p>
+                  "Amazing atmosphere and top-notch equipment. My fitness
+                  journey has never been better!"
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <!-- <ul class="slider">
+          <li>
+            <h1>Slide 1</h1>
+          </li>
+          <li>
+            <h1>Slide 2</h1>
+          </li>
+          <li>
+            <h1>Slide 3</h1>
+          </li>
+          <li>
+            <h1>Slide 4</h1>
+          </li>
+          <li>
+            <h1>Slide 5</h1>
+          </li>
+        </ul> -->
+      </div>
+    </section>
+
+    <div id="gym-clients" class="p-50">
+      <div class="container">
+        <div class="row justify-content-center align-items-center g-2">
+          <div class="col-lg-2 col-md-2 col-sm-2 col-2">
+            <img
+            src="https://u.cubeupload.com/lit_flame/gymlogohover1.png"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-2 col-2">
+            <img
+            src="https://u.cubeupload.com/lit_flame/gymlogohover2.png"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-2 col-2">
+            <img
+            src="https://u.cubeupload.com/lit_flame/gymlogohover3.png"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-2 col-2">
+            <img
+            src="https://u.cubeupload.com/lit_flame/gymlogohover4.png"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-2 col-2">
+            <img
+              src="https://u.cubeupload.com/lit_flame/gymlogohover5.png"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-2 col-2">
+            <img
+            src="https://u.cubeupload.com/lit_flame/brand5.png"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="top-footer" class="bg-blue">
+      <div class="container">
+        <div class="row justify-content-center align-items-start g-3">
+          <div class="col-lg-4 col-md-6 col-sm-12 text-white">
+            <h5>About</h5>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi,
+              totam!
+            </p>
+
+            <div class="footer-icons d-flex">
+              <li class="icon">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li class="icon">
+                <a href="#"><i class="fab fa-google-plus-g"></i></a>
+              </li>
+              <li class="icon">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li class="icon">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </li>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 text-white">
+            <h5>Contact</h5>
+            <p>
+              <i class="fa-solid fa-location-dot"></i
+              ><span class="ms-2">81 Kazi Haven, Awesome Villa</span>
+            </p>
+            <p>
+              <i class="fa-solid fa-phone"></i
+              ><span class="ms-2">555-555-5555</span>
+            </p>
+            <p>
+              <i class="fa-solid fa-envelope"></i
+              ><span class="ms-2">abc123@gmail.com</span>
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 text-white">
+            <h5>Newsletter</h5>
+            <p>Signup for our weekly newsletter to get the latest news.</p>
+            <form>
+              <div class="input-group mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Email"
+                  aria-label="Email"
+                  aria-describedby="button-addon2"
+                />
+                <button
+                  class="btn btn-red"
+                  type="button"
+                  id="button-addon2"
+                >
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer id="main-footer" class="bg-blue">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <p class="text-center">
+              Copyright <span id="year"></span>All Rights Reserved by Powerhouse Fitness
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Modal Body -->
+    <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+    <div
+      class="modal fade"
+      id="modalId"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="modalTitleId"
+      aria-hidden="true"
+    >
+      <div
+        class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg"
+        role="document"
+      >
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-center" id="modalTitleId">
+              Book Class Now
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="mb-3">
+              <label for="" class="form-label">Full Name</label>
+              <input
+                type="text"
+                name=""
+                id=""
+                class="form-control"
+                placeholder="Name..."
+                aria-describedby="helpId"
+              />
+            </div>
+
+            <div class="mb-3">
+              <label for="" class="form-label">Email</label>
+              <input
+                type="email"
+                name=""
+                id=""
+                class="form-control"
+                placeholder="Email Address..."
+                aria-describedby="helpId"
+              />
+            </div>
+
+            <div class="mb-3">
+              <div class="mb-3">
+                <label for="" class="form-label">Select Class</label>
+                <select class="form-select form-select-lg" name="" id="">
+                  <option value="" selected></option>
+                  <option value="Boxing">Boxing</option>
+                  <option value="Fitness">Fitness</option>
+                  <option value="MMA">MMA</option>
+                  <option value="Muscle">Muscle Building</option>
+                  <option value="Yoga">Yoga</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" id="submit" class="btn btn-dark">Save</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional: Place to the bottom of scripts -->
+    <script>
+      //       $('#myCarousel').carousel({
+      //   interval: 3000,
+      //   cycle: true
+      // });
+    </script>
+  </body>
+</html>

@@ -463,6 +463,12 @@ table td {
 
 #gym-clients img {
   filter: grayscale(1);
+  object-fit: contain;
+}
+
+#gym-clients .col-4{
+  padding: 5px;
+  text-align: center;
 }
 
 /* MEDIA */

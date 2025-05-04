@@ -596,6 +596,14 @@ table td {
     height: 100%;
   }
 
+  #hero h3{
+    font-size: 24px !important;
+  }
+
+  #hero p{
+  font-size: 16px !important;
+  }
+
   .features {
     margin-top: 0;
   }
@@ -743,6 +751,15 @@ table td {
   #hero {
     height: 100%;
   }
+
+  #hero h3{
+    font-size: 24px !important;
+  }
+
+  #hero p{
+    font-size: 16px !important;
+    }
+  
 
   .features {
     margin-top: 0;

@@ -463,6 +463,12 @@ table td {
 
 #gym-clients img {
   filter: grayscale(1);
+  object-fit: contain;
+}
+
+#gym-clients .col-4{
+  padding: 5px;
+  text-align: center;
 }
 
 /* MEDIA */
@@ -475,7 +481,7 @@ table td {
   min-height: 450px;
 }
 
-#gym-clients .col-sm-2 {
+#gym-clients .col-sm-4 {
   margin-bottom: 10px;
   text-align: center;
 }
@@ -680,11 +686,11 @@ table td {
   }
 
   #classes .card .card-body{
-    padding: 1rem 0px 2rem;
+    padding: 1rem 0px 0rem !important;
   }
 
   #media .col-12{
-    margin-bottom: 1rem;
+    margin-bottom: 1rem !important;
   }
 
   #blogs .col-12{

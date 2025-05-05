@@ -19,6 +19,7 @@ section {
 
 main {
   overflow: hidden;
+  width: 100%;
 }
 
 .p-50{
@@ -464,6 +465,7 @@ table td {
 #gym-clients img {
   filter: grayscale(1);
   object-fit: contain;
+  width: 100px;
 }
 
 #gym-clients .col-4{
@@ -505,6 +507,11 @@ table td {
 
 #blogs .col-12{
   margin-bottom: 3rem;
+}
+
+
+#blogs .post-list .col-12{
+  margin-bottom: 0rem;
 }
 
 
@@ -571,6 +578,10 @@ table td {
 
   .header{
     height: 25vh;
+  }
+
+  .mb-sm-1{
+    margin-bottom: .5rem !important;
   }
 
   .header .overlay{
@@ -674,7 +685,8 @@ table td {
   }
 
   #team .team-member .team-member-img img {
-    height: 475px;
+    height: auto;
+    object-fit: cover;
   }
 
   #classes .card .card-title{
@@ -696,6 +708,7 @@ table td {
   #blogs .col-12{
     margin-bottom: 1rem;
   }
+  
 
   #blogs .card .card-body h4{
     font-size: 16px;
@@ -730,6 +743,12 @@ table td {
 
   .post-list .btn-container{
     margin-bottom: 1.5rem;
+    padding: 0rem 1rem;
+  }
+
+  .post-list .btn-container .btn-red{
+    width: 50%;
+    display: block;
   }
 
   #contact, #sch{
